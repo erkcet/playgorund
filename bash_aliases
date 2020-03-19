@@ -1,4 +1,5 @@
-#Aliases
+# Useful Bash Aliases
+
 alias getpass="openssl rand -base64 20"
 alias ping='ping -c 5'
 alias ipe='curl ipinfo.io/ip'
