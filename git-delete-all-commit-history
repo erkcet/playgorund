@@ -1,23 +1,17 @@
-Checkout
+#Checkout
+git checkout --orphan latest_branch
 
-	git checkout --orphan latest_branch
+#Add all the files
+git add -A
 
-Add all the files
+#Commit the changes
+git commit -am "commit message"
 
-	git add -A
+#Delete the branch
+git branch -D master
 
-Commit the changes
+#Rename the current branch to master
+git branch -m master
 
-	git commit -am "commit message"
-
-Delete the branch
-
-	git branch -D master
-
-Rename the current branch to master
-
-	git branch -m master
-
-Finally, force update your repository
-
-	git push -f origin master
+#Finally, force update your repository
+git push -f origin master
